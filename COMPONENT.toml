@@ -3,7 +3,7 @@ name = "SigmaOS-bash3"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "bash3 component"
+description = "BASH shell compatibility layer with shell scripting and command execution"
 upstream = []
 
 [contract]
