@@ -1,16 +1,16 @@
 [component]
-name = "SigmaOS-bash3"
+name = "SigmaOS-bash"
 tier = 2
-stability = "scaffold"
-language = "rust"
-description = "BASH shell compatibility layer with shell scripting and command execution"
+stability = "beta"
+language = "shell"
+description = "SigmaOS integration for Bash shell integration: package management, config deployment, and CLI helpers."
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["app-manager:bash"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+test_evidence = "test.sh: syntax + metadata + isolated-HOME lifecycle checks"
+next_mestone = "Per-app config polish"
